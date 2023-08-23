@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BWSharedResource xmlns:pfx="http://www.tibco.com/schemas/3.Files/Resources/Schemas/Models/Users">
-    <import namespace="http://www.tibco.com/schemas/3.Files/Resources/Schemas/Models/Users" schemaLocation="/Resources/Schemas/Models/Users.xsd"/>
-    <name>Data Format</name>
+<BWSharedResource xmlns:pfx="http://www.tibco.com/schemas/1.Schemas/Resources/Schemas/Models/Orders">
+    <import namespace="http://www.tibco.com/schemas/1.Schemas/Resources/Schemas/Models/Orders" schemaLocation="/Resources/Schemas/Models/Orders.xsd"/>
+    <name>Orders Formata</name>
     <resourceType>ae.shared.ParseSharedResource</resourceType>
     <config xmlns:xsd="http://www.w3.org/2001/XMLSchema">
         <FormatType>Delimiter separated</FormatType>
@@ -10,6 +10,7 @@
         <LineSeparator>
 </LineSeparator>
         <FillCharacter>Space</FillCharacter>
-        <DataFormat ref="pfx:Users"/>
+        <LineLength>1</LineLength>
+        <DataFormat ref="pfx:Order"/>
     </config>
 </BWSharedResource>
