@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource xmlns:pfx="http://www.tibco.com/schemas/1.Schemas/Resources/Schemas/Models/Orders">
+    <import namespace="http://www.tibco.com/schemas/1.Schemas/Resources/Schemas/Models/Orders" schemaLocation="/Resources/Schemas/Models/Orders.xsd"/>
+    <name>Orders Formata</name>
+    <resourceType>ae.shared.ParseSharedResource</resourceType>
+    <config xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <FormatType>Delimiter separated</FormatType>
+        <ColumnSeparator>,</ColumnSeparator>
+        <ColSeparatorRule>Treat all characters as entered as a single column separator string</ColSeparatorRule>
+        <LineSeparator>
+</LineSeparator>
+        <FillCharacter>Space</FillCharacter>
+        <LineLength>1</LineLength>
+        <DataFormat ref="pfx:Order"/>
+    </config>
+</BWSharedResource>
