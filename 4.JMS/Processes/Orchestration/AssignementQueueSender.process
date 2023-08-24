@@ -23,7 +23,7 @@
                 <transacted>false</transacted>
                 <acknowledgeMode>1</acknowledgeMode>
                 <maxSessions>1</maxSessions>
-                <destination>%%Resources/Connections/JMS/AssignementQueue%%</destination>
+                <destination>%%Resources/Connections/JMS/QueueAssignement%%</destination>
             </SessionAttributes>
             <ConfigurableHeaders>
                 <JMSDeliveryMode>PERSISTENT</JMSDeliveryMode>

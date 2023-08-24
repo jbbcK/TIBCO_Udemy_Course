@@ -18,6 +18,14 @@
 			<modTime>1692798194801</modTime>
 		</globalVariable>
 		<globalVariable>
+			<name>QueueAssignement</name>
+			<value>Q.assignement</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1692886651274</modTime>
+		</globalVariable>
+		<globalVariable>
 			<name>UsersQueue</name>
 			<value>Q.MoveUsersToTargetFolder</value>
 			<deploymentSettable>true</deploymentSettable>

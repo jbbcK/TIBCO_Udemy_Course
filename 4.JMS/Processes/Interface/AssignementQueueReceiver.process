@@ -18,7 +18,7 @@
                 <transacted>false</transacted>
                 <acknowledgeMode>1</acknowledgeMode>
                 <maxSessions>1</maxSessions>
-                <destination>%%Resources/Connections/JMS/AssignementQueue%%</destination>
+                <destination>%%Resources/Connections/JMS/QueueAssignement%%</destination>
             </SessionAttributes>
             <ConfigurableHeaders>
                 <JMSDeliveryMode>PERSISTENT</JMSDeliveryMode>
@@ -47,7 +47,7 @@
         <pd:inputBindings>
             <ns3:WriteActivityInputTextClass>
                 <fileName>
-                    <xsl:value-of select="'C:\Users\NelsonDias\OneDrive - P8G Group, Lda\Ambiente de Trabalho\TIBCO_Udemy_Course\Files\Input\Results.txt'"/>
+                    <xsl:value-of select="'C:\Users\jborg\OneDrive\Ambiente de Trabalho\TIBCO_Udemy_Course\Files\Input\Results.txt'"/>
                 </fileName>
                 <textContent>
                     <xsl:value-of select="$JMS-Queue-Receiver/ns2:ActivityOutput/Body"/>
